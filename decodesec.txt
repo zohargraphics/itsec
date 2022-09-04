@@ -1,0 +1,6 @@
+import base64
+s = "4120746F702053656372657421"
+
+encode = s.encode("utf-8")
+to_hex = base64.b16encode(decode)
+print(to_hex)
