@@ -29,7 +29,7 @@ int main()
     printBN("m^e mod n = ",  C);
     printf("\n\n");
 
-    BN_mod_exp(decr, C, d, ctx);
+    BN_mod_exp(decr, C, d, n, ctx);
     printBN("c^d mod n = ", decr);
 
     return 0;
