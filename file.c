@@ -5,7 +5,7 @@
 void printBN(char *msg, BIGNUM * a)
 {
 char * number_str = BN_bn2hex(a);
-printf("%s %s\n, msg, number_str);
+printf("%s %s\n", msg, number_str);
 OPENSSL_free(number_str);
 }
 
